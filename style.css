@@ -60,7 +60,7 @@ nav {
   outline: none;
   color: #777;
 }
-app {
+.app {
     position: relative;
     max-width: 100rem;
     margin: 4rem auto;
@@ -70,9 +70,10 @@ app {
     gap: 2rem;
   
     /* NOTE This creates the fade in/out anumation */
-    /*opacity: 0;
-    transition: all 1s;*/
+   /* opacity: 0;*/
+    transition: all 1s;
   }
+  
   .balance {
     grid-column: 1 / span 2;
     display: flex;
@@ -225,9 +226,10 @@ app {
     font-size: 1.5rem;
     text-align: center;
     color: #333;
-    padding: 0.3rem 1rem;
+    padding: 0.9 1rem;
     border-radius: 0.7rem;
     transition: all 0.3s;
+    
   }
   
   .form-input:focus {
